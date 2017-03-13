@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">ZZJ_CURRENCY_CONVERT</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string-array name="money_array">
+        <item>HKD</item>
+        <item>CNY</item>
+        <item>EUR</item>
+        <item>AUD</item>
+        <item>USD</item>
+        <item>GBP</item>
+        <item>JPY</item>
+    </string-array>
+    <string name="line1">Current Type</string>
+    <string name="line2">Final Type</string>
+    <string name="line3">Date</string>
+    <string name="content_testview_to">To</string>
+    <string name="content_textview_from">From</string>
+    <string name="title">Currency convert</string>
+    <string name="buttom_convert">Convert</string>
+    <string name="buttom_rate">Todays Rate</string>
+    <string name="checkrates">Check rates</string>
+    <string name="Realtime">Real-time</string>\
+    <string name="History">History</string>
+    <string name="Slideshow">About</string>
+    <string name="Tools">Tools</string>
+
+
+</resources>

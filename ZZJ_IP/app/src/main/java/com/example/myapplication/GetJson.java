@@ -1,0 +1,24 @@
+package com.example.myapplication;
+
+/**
+ * Created by ZOU Zijie on 2017/3/12.
+ */
+
+import java.io.ByteArrayOutputStream;
+import java.io.InputStream;
+/**
+ * Created by 吴孝城 on 2016/9/25.
+ */
+public class GetJson {
+    public static String readStream(InputStream is) throws Exception{
+        ByteArrayOutputStream baos = new ByteArrayOutputStream();
+        byte[] buffer = new byte[1024];
+        int len = 0;
+        while ((len = is.read(buffer))!=-1){
+            baos.write(buffer, 0, len);
+        }
+        is.close();
+        String content = new String(baos.toByteArray(), "gbk");
+        return content;
+    }
+}

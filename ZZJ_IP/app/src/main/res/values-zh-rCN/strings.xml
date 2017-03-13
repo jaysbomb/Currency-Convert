@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">ZZJ_汇率转换</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">关于</string>
+    <string-array name="money_array">
+        <item>HKD</item>
+        <item>CNY</item>
+        <item>EUR</item>
+        <item>AUD</item>
+        <item>USD</item>
+        <item>GBP</item>
+        <item>JPY</item>
+    </string-array>
+    <string name="line1">货币种类</string>
+    <string name="line2">最终种类</string>
+    <string name="line3">日期</string>
+    <string name="content_testview_to">目标</string>
+    <string name="content_textview_from">被转换</string>
+    <string name="title">汇率转换</string>
+    <string name="buttom_convert">转换</string>
+    <string name="buttom_rate">今日汇率</string>
+    <string name="checkrates">查看汇率</string>
+    <string name="Realtime">实时汇率</string>\
+    <string name="History">历史汇率</string>
+    <string name="Slideshow">关于</string>
+    <string name="Tools">工具</string>
+
+</resources>
