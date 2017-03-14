@@ -4,7 +4,7 @@
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
 
-    <string name="action_settings">Settings</string>
+    <string name="action_settings">Exit</string>
     <string-array name="money_array">
         <item>HKD</item>
         <item>CNY</item>
@@ -23,8 +23,8 @@
     <string name="buttom_convert">Convert</string>
     <string name="buttom_rate">Todays Rate</string>
     <string name="checkrates">Check rates</string>
-    <string name="Realtime">Real-time</string>\
-    <string name="History">History</string>
+    <string name="Realtime">History</string>\
+    <string name="History">Web-history</string>
     <string name="Slideshow">About</string>
     <string name="Tools">Tools</string>
 

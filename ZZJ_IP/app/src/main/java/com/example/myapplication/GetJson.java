@@ -6,9 +6,7 @@ package com.example.myapplication;
 
 import java.io.ByteArrayOutputStream;
 import java.io.InputStream;
-/**
- * Created by 吴孝城 on 2016/9/25.
- */
+
 public class GetJson {
     public static String readStream(InputStream is) throws Exception{
         ByteArrayOutputStream baos = new ByteArrayOutputStream();

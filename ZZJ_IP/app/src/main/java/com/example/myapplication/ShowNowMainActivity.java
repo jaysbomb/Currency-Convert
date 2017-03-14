@@ -8,6 +8,7 @@ import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.view.View;
+import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -23,10 +24,11 @@ import java.net.MalformedURLException;
 import java.net.URL;
 
 
-
 public class ShowNowMainActivity extends AppCompatActivity {
     private TextView mTextView;
     private ConnectivityManager mConnMgr;
+    private EditText mEditText;
+    public String date;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -34,12 +36,14 @@ public class ShowNowMainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_show_now_main);
         mConnMgr = (ConnectivityManager)getSystemService(Context.CONNECTIVITY_SERVICE);
         mTextView = (TextView)findViewById(R.id.textview1);
-
+        mEditText= (EditText)findViewById(R.id.date);
+        date = mEditText.getText().toString();
     }
 
     public void loadData(View v){
+        date = mEditText.getText().toString();
 
-        String path = "http://api.fixer.io/latest?base=HKD";
+        String path = "http://api.fixer.io/"+date+"?base=HKD";
 
         if (mConnMgr != null){
             NetworkInfo networkInfo = mConnMgr.getActiveNetworkInfo();
